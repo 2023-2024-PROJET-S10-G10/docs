@@ -12,11 +12,11 @@ https://air.imag.fr/index.php/Développement_d'un_intergiciel_de_Grille_de_Calcu
 
 ### Git
 
-https://github.com/2023-2024-PROJET-S10-G10
+[Organisation GitHub](https://github.com/2023-2024-PROJET-S10-G10)
 
-Application : https://github.com/2023-2024-PROJET-S10-G10/app
+[Dépôt `Application`](https://github.com/2023-2024-PROJET-S10-G10/app)
 
-Documents : https://github.com/2023-2024-PROJET-S10-G10/docs
+[Dépôt `Documents`](https://github.com/2023-2024-PROJET-S10-G10/docs)
 
 ### Trello
 
