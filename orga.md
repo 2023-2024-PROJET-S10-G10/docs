@@ -53,17 +53,63 @@ class [Nom de la méthode] :
 
 ### Construction
 
-Dans un test unitaire, on défini trois partie : 
+Dans un test unitaire, on défini trois parties : 
 - L'initialisation des paramètres et résultats attendus
 - L'éxécution du cas de test
-- Vérification des résultats
+- Vérification des résultats avec assertions :
+  - `assertTrue(bool)`
+  - `assertFalse(bool)`
+  - `assertEqual(val, expected)`
+  - `assertNotEqual(val, not_expected)`
 
 Chaque test unitaire doit être placé dans une classe qui étend la classe `TestManager`. \
-`TestManager` est une classe qui va référencer toutes ses sous classes et executer touts les tests qu'elles contiennent. Il produira ensuite une sortie qui résumera le déroulement des tests (Combien de tests, combien ont réussi, quels tests ne sont pas passés, ...).
+`TestManager` est une classe qui va référencer toutes ses sous classes et executer touts les tests qu'elles contiennent. Il produira ensuite une sortie qui résumera le déroulement des tests (Combien de tests, combien ont réussi, quels tests ne sont pas passés, ...). \
+Chaque sous classe de `TestManager` correspond à une méthode à tester et doit être placé dans un fichier correspondant au fichier dans lequel la méthode se trouve.
+Le fichier contenant les classes et les tests doivent se trouver dans le dossier `App/Test`
+
+### Contenu
+
+- Nom du module (fichier)
+  - Nom de la méthode
+    - Nom du test unitaire
+
+Lors des tests un objet avec les informations est remplis, voici sa structure : 
+```Json
+{
+    [
+        "method_name" : "NOM_METHODE",
+        "status" : "Success | Fail",
+        "n_passed" : "NUMBER_OF_PASSED_TEST_FOR_METHOD",
+        "tests" : [
+            {
+                "test_name" : "NOM_TEST",
+                "status" : "Success | Fail",
+                "details" : "ADDITIONNAL_INFORMATION"
+            },
+            ...
+        ],
+        ...
+    ]
+}
+```
+
+### Lancement
+
+```
+    python3 ./Test.py [0|1|2]
+```
+
+### Sortie
+
+Chaque exécution produit un rapport de test disponible dans le fichier `Test/Logs`.
+Il existe trois niveaux de debug:
+- `0` : Le minimum -> Status de réussite et pourcentage 
+- `1` : Les erreurs -> Détails sur les tests échoués
+- `2` : Tout -> détail d'exécution de chaque test
 
 ### Exemple
 
-On considère une fonction isInRange qui indique si un nombre est compris entre deux deux autres nombre, un extrait des tests unitaires associés serait :
+On considère une fonction isInRange qui indique si un nombre est compris entre deux autres nombres, un extrait des tests unitaires associés serait :
 ```python
 
 class isInRange(TestManager):
@@ -89,7 +135,7 @@ class isInRange(TestManager):
 
 
         # Vérification du résultat
-        return result == expectedResult
+        self.assertEqual(result, expectedResult)
 
 
     def outOfRange_ReturnsFalse :
@@ -102,7 +148,7 @@ class isInRange(TestManager):
         result = isInRange(3, lowerBound, upperBound)
 
 
-        return result == expectedResult
+        self.assertEqual(result, expectedResult)
 ```
 ## Technologies
 
