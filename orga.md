@@ -112,7 +112,7 @@ Il existe trois niveaux de debug:
 On considère une fonction isInRange qui indique si un nombre est compris entre deux autres nombres, un extrait des tests unitaires associés serait :
 ```python
 
-class isInRange(TestManager):
+class isInRangeUT(TestManager):
     '''
         isInRange : 
             Param1 : The number to test
