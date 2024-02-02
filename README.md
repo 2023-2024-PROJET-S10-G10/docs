@@ -25,7 +25,7 @@ Durant ce projet, nous allons utiliser des outils pour:
 - la communication: **Discord**
 - la gestion des tâches à réaliser: **Trello**
 
-Nous allons également utiliser les méthodes Scrum Agile (Réalisation de Sprint, revues, daily-meeting, [Diagramme de Gantt](./gantt_diagram.md)).
+Nous allons également utiliser les méthodes Scrum Agile (Réalisation de Sprint, revues, [Daily-meetings](./daily_meeting.md), [Diagramme de Gantt](./gantt_diagram.md)).
 
 ## Procédure de Conception:
 

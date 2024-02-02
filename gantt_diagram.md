@@ -18,7 +18,7 @@ gantt
         Tache                        : 2024-02-07, 1d
         Tache                        : 2024-02-08, 1d
         Tache                        : 2024-02-09, 1d
-    section  Sprint 1
+    section  Sprint Réalisation et tests
         Tache                        : 2024-02-12, 1d
         Tache                        : 2024-02-13, 1d
         Tache                        : 2024-02-14, 1d
@@ -30,7 +30,7 @@ gantt
         Tache                        : 2024-02-22, 1d
         Tache                        : 2024-02-23, 1d
         Vacances                        : 2024-02-26, 7d
-    section  Sprint 2
+    section  Sprint Essais et mise en service
         Tache                        : 2024-03-04, 1d
         Tache                        : 2024-03-05, 1d
         Tache                        : 2024-03-06, 1d

@@ -33,3 +33,19 @@
 * Integrer des tests dans le workflow (dans l'environnement virtuel de Poetry) 
 
 
+# 2 Février
+
+## Ce que nous avons fait
+
+* Revue de code de l'environnement de test
+* Lecture de la structure de la BDD
+* Mise en place de l'environnement virtuel avec Poetry
+* Integrer des tests dans le workflow (dans l'environnement virtuel de Poetry) 
+
+## Ce que nous allons faire
+
+* Étudier la structure / architecture du projet (BDD, ...)
+* Rédiger le cahier des charges
+    * Comprendre le code Ruby
+    * Lister les fonctionnalités présentes
+

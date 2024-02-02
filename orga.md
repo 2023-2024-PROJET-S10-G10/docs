@@ -2,7 +2,11 @@
 
 ## Objectif
 
-L'objectif du projet est d'effectuer la migration d'un programme de *[Bah je sais même pas en fait ... Grille de calcul?]* écrit en Ruby vers du python.
+L'objectif du projet est d'effectuer la migration d'un programme  écrit en Ruby vers du python.
+
+CiGri est un ordonnanceur de tâche de haut niveau qui permet de simplifier le lancement de tâche paramètrique et d’optimiser l’utilisation des machines.
+
+L'objectif principal de ce projet est de créer une nouvelle version de CiGri (CiGriV4) en Python en se basant (au niveau concept) sur l'outil existant. Cela implique de conserver à minima toutes les fonctionnalités de la version précédente (CiGriV3) en Ruby et d'adapter/ajouter certaines fonctionnalités.
 
 ## Ressources
 

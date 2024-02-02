@@ -36,3 +36,9 @@
 * Mise en place de l'environnement virtuel avec Poetry sur nos machines (grâce au fichier de configuration écrite la veille)
 * Fin d'intégration des tests au workflow
 * Ajout de poetry au workflow pour les tests
+
+## 2 Février
+
+* Discussion et partage sur l'architecture du projet
+* Rédaction du document de cadrage demandé par M. Emmanuelle TRÉHOUST
+
