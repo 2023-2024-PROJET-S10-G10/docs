@@ -1,0 +1,129 @@
+@startuml BDD
+
+class campaigns {
+	+id : int = autoincrement
+	+grid_user: varchar(255) = not null
+	+state: enum('cancelled', 'in_treatment','paused','terminated')
+	+type: varchar(255) = not null
+	+name: varchar(255)
+	+submission_time: timestamp
+	+completion_time: timestamp
+	+nb_jobs: int
+	+jdl: text
+	--
+}
+
+class jobs {
+	+id: bigint = autoincrement
+	+campaign_id: int = not null
+	+param_id: int
+	+batch_id: int
+	+cluster_id: int
+	+collect_id: int
+	+state: enum('to_launch', 'launching', 'submitted', 'running', 'remote_waiting', 'terminated', 'event')
+	+return_code: int
+	+submission_time: timestamp
+	+start_time: timestamp
+	+stop_time: timestamp
+	+node_name: varchar(255)
+	+resources_used: int
+	+remote_id: int
+	+checkpoint_date: timestamp
+	+checkpoint_state: enum('ToTreat', 'InTreatment', 'Ok', 'Failed')
+	--
+}
+
+class bag_of_tasks {
+	+id: bigint = autoincrement
+	+campaign id: int = not null
+	+param_id: int
+	--
+}
+
+class parameters {
+	+id: bigint = autoincrement
+	+campaign_id: int = not null
+	+name: varchar(255)
+	+param: text
+	--
+}
+
+class events {
+	+id: int = autoincrement
+	+class: enum = ('cluster', 'job', 'campaign')
+	+code: varchar(32)
+	+state: enum = ('open', 'closed')
+	+message: text
+	+job_id: int
+	+cluster_id: int
+	+campaign_id: int
+	+parent: int
+	+checked: enum=('yes', 'no')
+	--
+}
+
+class campaign_properties {
+	+id: int = autoincrement
+	+cluster_id: int
+	+campaign_id: int = not null
+	+name: varchar(255) = not null
+	+value: text = not null
+	--
+}
+
+class clusters {
+	+id: int = autoincrement
+	+name: varchar(128)
+	+api_url: varchar(255) = not null
+	+api_auth_type: enum = ('none', 'password', 'cert')
+	+api_username: varchar(255)
+	+api_password: varchar(255)
+	+api_auth_header : varchar(255)
+	+ssh_host: varchar(255)
+	+batch: enum = ('oar2_5', 'g5k')
+	+resource_unit: varchar(128) = resource_id
+	+properties: varchar(256)
+	--
+}
+
+class users {
+	+grid_login: varchar(255)
+	+auth_type: enum('ldap', 'mapping')
+	+cluster_login: varchar(255)
+	+cluster_id: int
+	--
+}
+
+class jobs_to_launch {
+	+id: int = autoincrement
+	+task_id: int
+	+cluster_id: int
+	+tag: varchar (255)
+	+runner_options: text
+	--
+}
+
+events --l--|> events
+events --|> jobs
+events -r-|> campaigns
+events --|> clusters
+
+campaigns --|> bag_of_tasks
+campaigns -d-|> parameters
+campaigns --|> jobs
+
+jobs -r-|> parameters
+jobs -l-|> clusters
+
+bag_of_tasks -l-|> parameters
+
+campaign_properties -|> campaigns
+campaign_properties -|> clusters
+
+jobs_to_launch -[hidden]u-|> parameters
+jobs_to_launch -u-|> bag_of_tasks
+jobs_to_launch -l-|> clusters
+
+users -u-|> clusters
+
+@enduml
