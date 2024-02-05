@@ -42,3 +42,9 @@
 * Discussion et partage sur l'architecture du projet
 * Rédaction du document de cadrage demandé par M. Emmanuelle TRÉHOUST
 
+## 5 Février
+
+* Réunion avec M. Olivier RICHARD
+* Commencement de la rédaction d'une documentation sur les commandes `grid`
+* Planification du sprint d'"Analyse et Documentation" (tâches, temps et priorité)
+* Installation de fastAPI
