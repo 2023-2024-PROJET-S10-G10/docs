@@ -49,3 +49,18 @@
     * Comprendre le code Ruby
     * Lister les fonctionnalités présentes
 
+
+# 5 Février
+
+## Ce que nous avons fait
+
+* Étudier la structure / architecture de la BDD.
+* Comprendre le code Ruby
+* Commencer le document de cadrage demandé par M. Emmanuelle TRÉHOUST
+
+## Ce que nous allons faire
+
+* Préparer la réunion avec M. RICHARD
+* Préparer la fin du sprint de pré-étude (tâches, temps et priorité)
+* Finir le document de cadrage demandé par M. Emmanuelle TRÉHOUST
+
