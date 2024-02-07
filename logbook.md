@@ -48,3 +48,15 @@
 * Commencement de la rédaction d'une documentation sur les commandes `grid`
 * Planification du sprint d'"Analyse et Documentation" (tâches, temps et priorité)
 * Installation de fastAPI
+
+# 6 Février
+
+* Commencement de l'apprentissage de Prefect
+* Commencement de la documentation de l'API
+* Commencement de l'apprentissage de FastAPI
+* Commencement de l'apprentissage de SQLalchemy
+* Ajout d'élément dans la documentation sur les commandes
+* Création test de campagnes de jobs, utiliser les commandes `grid`
+* Création d'API de test via FastAPI
+* Commencement de la documentation OAR3 concernant FastAPI.
+

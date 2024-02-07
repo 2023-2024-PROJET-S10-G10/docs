@@ -64,3 +64,40 @@
 * Préparer la fin du sprint de pré-étude (tâches, temps et priorité)
 * Finir le document de cadrage demandé par M. Emmanuelle TRÉHOUST
 
+# 6 Février
+
+## Ce que nous avons fait
+
+* Fini le document de cadrage demandé par M. Emmanuelle TRÉHOUST
+* Fini la planification du sprint d'"Analyse et Documentation" 
+
+## Ce que nous allons faire
+
+* Commencer l'apprentissage de Prefect
+* Commencer la documentation de l'API
+* Commencer l'apprentissage de FastAPI
+* Commencer l'apprentissage de SQLalchemy
+* Finir la documentation sur les commandes
+* Créer des campagnes de jobs, utiliser les commandes `grid`
+
+
+# 7 Février
+
+## Ce que nous avons fait
+
+* Commencer l'apprentissage de Prefect
+* Commencer la documentation de l'API
+* Commencer l'apprentissage de FastAPI
+* Commencer l'apprentissage de SQLalchemy
+* Avancement dans la documentation sur les commandes
+* Créer des campagnes de jobs, utiliser les commandes `grid`
+
+## Ce que nous allons faire
+
+* Finir la documentation de l'API
+* Finir la documentation sur les commandes
+* Continuer l'apprentissage de Prefect
+* Continuer l'apprentissage de SQLalchemy
+* Continuer l'apprentissage de FastAPI
+
+
