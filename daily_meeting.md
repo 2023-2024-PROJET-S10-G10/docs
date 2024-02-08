@@ -101,3 +101,23 @@
 * Continuer l'apprentissage de FastAPI
 
 
+# 7 Février
+
+## Ce que nous avons fait
+
+* Fini la documentation sur les commandes
+* Documentation API
+    * Découverte de nouvelles routes via le code ruby et le linkage fournie en réponse
+* Commencer l'apprentissage du protocole ASGI
+* Documentation OAR3 concernant la gestion des éléments ASGI
+* Avancement dans les recherches sur Prefect
+* Apprentissage SQLalchemy (gestion des champs null et des énumérations)
+
+## Ce que nous allons faire
+
+* Finir l'apprentissage de Prefect
+* Continuer l'apprentissage de SQLalchemy
+* Continuer la documentation API de CiGri
+
+
+

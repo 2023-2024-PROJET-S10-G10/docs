@@ -117,7 +117,7 @@ $ gridclusters -u
 $ gridclusters -b
 ```
 
-![](https://codimd.math.cnrs.fr/uploads/8d1325109f3a58dc84f982695.png)
+![gridclusters_bars_output](./img/gridclusters_bars.png)
 
 ### Commentaires
 
@@ -158,7 +158,9 @@ $ griddel -r
 
 ### Commentaires
 
-Les options -j et --purge retournent une erreur `400 Bad Request`.
+Les options `-j` et `--purge` retournent une erreur `400 Bad Request`.
+
+Comme nous pouvons le voir dans les exemples de sorties, il manque les retours (feedback) des commandes exécutées.
 
 ***
 
@@ -172,7 +174,7 @@ $ gridevents [options]
 
 Cette commande permet de gérer les événements, lister des événements d'une campagne donnée et de les corriger. 
 
-Lorsqu'elle est utilisée pour corriger des événements, il peut lui être demandé de déclencher un nouvel abonnement automatique.
+Lorsqu'elle est utilisée pour corriger des événements, il peut lui être demandé de déclencher la relance automatique du ou des jobs corrigés.
 
 Les événements permettent à l'utilisateur de lui fournir des informations sur l'arrêt du job (erreur syntaxique, fichier non trouvé, et autres). 
 
@@ -181,7 +183,7 @@ Plusieurs options sont disponibles :
     -c, --campaign ID                Affiche les événements pour cet ID de campagne or close them (with -f)
     -g, --global                     Affiche les événements globaux actuels (non spécifiques à une campagne)
     -e, --event ID                   Affiche uniquement cet événement ou le fermer (avec -f)
-    -f, --fix                        Fix: fermer un événement (utilisé avec -e) ou tous les événements d'une campagne (utilisé avec -c)
+    -f, --fix                        Corrige / Ferme un événement (utilisé avec -e) ou tous les événements d'une campagne (utilisé avec -c)
     -r, --resubmit                   Resoumettre chaque travail concerné par les événements fixés (nécessite -f)
     -a, --all                        Affiche tous les événements, même ceux qui sont fermés. (Attention: it does not print the current global events)
     -v, --verbose                    Être verbeux
@@ -259,18 +261,16 @@ SSL_read: ssl handshake failure
 
 ### Commentaires
 
-L'option -c retourne une erreur dans certains cas:
+L'option `-c` retourne une erreur dans certains cas, par exemple, nous avons eu cette situation :
 
-exemple de situation :
-
-Une campagne possède un job qui a soulever un événement et relancer le job.
+La campagne `23206` possède un job qui a soulevé un événement et a été relancé.
 
 ```bash
   233824180: 57180358,79892525,running,luke,7000000,7000000
   233824180: 57179952,79892517,event,luke,7000000,7000000
 ```
 
-Si l'utilisation souhaite voir l'événement en détail (`gridevents -c 23206`), il reçoit une erreur 404.
+Cependant, si l'utilisation souhaite de voir l'événement en détail (`gridevents -c 23206`), il reçoit une erreur 404.
 
 
 ***
@@ -290,8 +290,8 @@ Plusieurs options sont disponibles :
     -l, --list                       Liste les notifications
     -m, --mail <address>             S'abonne aux notifications par e-mail avec une adresse e-mail donnée (la sévérité doit être affecté avant)
     -j, --jabber <identity>          S'abonne aux notifications Jabber avec l'identité donnée
-    -u, --unsubscribe                Se desabonne des notifications spécifiques. À utiliser avec -m
-    -s, --severity <low|medium|high> Affecte la sévérité des notifications à faible (low), modérée (medium) ou forte (high). À utiliser avec -m
+    -u, --unsubscribe                Se desabonne des notifications spécifiques (nécessite -m)
+    -s, --severity <low|medium|high> Affecte la sévérité des notifications à faible (low), modérée (medium) ou forte (high) (nécessite -m)
     -v, --verbose                    Être verbeux
         --version                    Affiche la version de CiGri
     -h, --help                       Affiche l'aide en console
@@ -314,7 +314,7 @@ $ gridnotify -u -m nutricare38@gmail.com
 
 ### Commentaires
 
-Pour la notification par mail, nous avons bien un mail lorsque la campagne est finie.
+Pour la notification par mail, nous avons bien reçu un mail lorsque la campagne s'est finie.
 
 ```
 [CIGRI] (high): New event #38321729: FINISHED_CAMPAIGN for campaign #23225
@@ -496,10 +496,7 @@ Last 5 lines of stderr_file:
 
 ### Commentaires
 
--f ne fonctionne pas. 
-
--c retourne une erreur 404 de temps en temps.
-
+`-c` et `-f` retournent une erreur 404 de temps en temps.
 
 ***
 
@@ -534,16 +531,16 @@ CAMPAIGN_ID=23181
 
 ### Commentaires
 
--c et -f retourne une erreur 404 de temps en temps.
-
+`-c` et `-f` retourne une erreur 404 de temps en temps.
 
 ***
 
-## Conclusion
+## Commentaires générals
 
-* Manque de feedback pour les commandes utilisés
-	* code erreur non fidèle à la réalité
-	* Pas de retour du tout
+* Les retours (feedback) des commandes utilisés
+	* Code erreur non fidèle à la réalité et non explicite.
+	* Beaucoup de commande ne retourne pas d'informations.
 
-* Documentation sur les commandes pas assez riches
+* Documentation sur les commandes
 	* Manque d'information sur l'utilisation des commandes
+  

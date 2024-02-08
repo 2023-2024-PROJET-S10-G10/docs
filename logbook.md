@@ -60,3 +60,13 @@
 * Création d'API de test via FastAPI
 * Commencement de la documentation OAR3 concernant FastAPI.
 
+# 7 Février
+
+* Finition de la documentation sur les commandes
+* Documentation API
+    * Découverte de nouvelles routes via le code ruby et le linkage fournie en réponse
+* Apprentissage du protocole ASGI
+* Documentation OAR3 concernant la gestion des éléments ASGI
+* Avancement dans les recherches sur Prefect
+* Apprentissage SQL alchemy (gestion des champs null et des énumérations)
+
