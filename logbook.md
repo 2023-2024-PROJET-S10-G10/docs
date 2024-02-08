@@ -68,5 +68,13 @@
 * Apprentissage du protocole ASGI
 * Documentation OAR3 concernant la gestion des éléments ASGI
 * Avancement dans les recherches sur Prefect
-* Apprentissage SQL alchemy (gestion des champs null et des énumérations)
+* Apprentissage SQLalchemy (gestion des champs null et des énumérations)
 
+# 8 Février
+
+* Finition de la documentation sur le protocole ASGI
+* Finition de la documentation d'API OAR3
+* Recherche d'information sur Prefect faite
+* Apprentissage SQLalchemy continue
+* Documentation API continue
+* Début mise en place encapsulation API OAR3 en python pour cigri

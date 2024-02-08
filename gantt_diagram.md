@@ -19,7 +19,7 @@ gantt
         Documenter les codes (le rôle des composants de l'architecture) : 2024-02-06, 11d
         Apprentissage FastAPI                                           : 2024-02-06, 2d
         Apprentissage SQLAlchemy                                        : 2024-02-06, 1d
-        Apprentissage perfect                                           : 2024-02-06, 2d
+        Apprentissage perfect                                           :active, 2024-02-06, 2d
         Documenter l'API                                                : 2024-02-06, 2d
         Déterminer comment communiquer avec OAR en python               : 2024-02-06, 3d
         Apprentissage Richclic                                          : 2024-02-08, 1d
