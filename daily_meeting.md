@@ -120,4 +120,20 @@
 * Continuer la documentation API de CiGri
 
 
+# 9 Février
+
+## Ce que nous avons fait
+
+* Recherche sur le protocole ASGI
+* Fini la documentation d'API OAR3
+* Recherche d'informations sur Prefect faite
+* Continue sur l'apprentissage SQLalchemy
+* Continue la documentation API de CiGri
+* Début de la mise en place d'encapsulation API OAR3 en python pour CiGri
+
+## Ce que nous allons faire
+
+* Continuer l'encapsulation API OAR3 en python pour CiGri
+* Continuer l'apprentissage de SQLalchemy (contraintes)
+* Continuer la documentation API de CiGri
 

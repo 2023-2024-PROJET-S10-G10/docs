@@ -72,9 +72,10 @@
 
 # 8 Février
 
-* Finition de la documentation sur le protocole ASGI
+* Recherche sur le protocole ASGI
 * Finition de la documentation d'API OAR3
-* Recherche d'information sur Prefect faite
+* Recherche d'informations sur Prefect faite
 * Apprentissage SQLalchemy continue
-* Documentation API continue
+* Documentation API de CiGri continue
 * Début mise en place encapsulation API OAR3 en python pour cigri
+
