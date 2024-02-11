@@ -16,6 +16,8 @@ Ceci est le dépôt GitHub du projet S10 du Groupe 10 dédié à la documentatio
 
 * Description Architecturale
 
+* [Docmunentation](#documentation)
+
 ***
 
 ## Scrum Agile
@@ -34,3 +36,10 @@ Tout d'abord, nous allons examiner attentivement les **documents**, **descriptio
 Pour organiser le travail, nous allons établir un **diagramme de Gantt** pour la **planification** les tâches et utilisé **Trello** pour la **répartition des responsabilités**.
 
 Une fois qu'un membre de l'équipe a achevé une tâche, il soumet une **pull request**. Une **revue de code** est ensuite effectuée pour valider le travail, apporter des suggestions éventuelles ou rejeter la proposition si désaccord sur la réalisation.
+
+## Documentation
+
+* [Document de cadrage](./docs/doc_cadrage.md)
+
+* [Documentation des commandes `grid`](./docs/cmd_doc.md)
+

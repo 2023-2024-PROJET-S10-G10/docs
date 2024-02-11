@@ -79,3 +79,12 @@
 * Documentation API de CiGri continue
 * Début mise en place encapsulation API OAR3 en python pour cigri
 
+# 9 Février
+
+* Mise en place de l'API-client (pas encore de requête)
+* Mise en place de l'API-client stub
+* Création de tests unitaire sur l'API-client stub
+* Finition de la documantation de l'API de CiGri
+* Attributions de contraintes sur la BDD
+* Prises de rendez-vous
+* Tester des usages de prefect (github action, API key prefect, workpool)
