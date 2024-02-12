@@ -137,3 +137,19 @@
 * Continuer l'apprentissage de SQLalchemy (contraintes)
 * Continuer la documentation API de CiGri
 
+
+# 12 Février
+
+## Ce que nous avons fait
+
+* Fini la documentation de l'API
+* Appliquer les contraintes dans SQLalchemy
+* Fini la découverte de Prefect
+
+## Ce que nous allons faire
+
+* Ajouter le type de données dans SQLalchemy
+* Mise en place d'un versioning dans SQLalchemy
+* Continuer la documentation du code
+* Ajouter de requête http client pour l'API
+

@@ -88,3 +88,11 @@
 * Attributions de contraintes sur la BDD
 * Prises de rendez-vous
 * Tester des usages de prefect (github action, API key prefect, workpool)
+
+# 12 Février
+
+* Création du design de l'API client + début de l'implémentation
+* Commencement de la table versionning
+* SQLalchemy select
+* Poursuite de la documentation du code
+
