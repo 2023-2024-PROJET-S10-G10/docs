@@ -92,7 +92,7 @@
 # 12 Février
 
 * Création du design de l'API client + début de l'implémentation
-* Commencement de la table versionning
+* Commencement de la table versionning dans SQLalchemy
 * SQLalchemy select
 * Poursuite de la documentation du code
 

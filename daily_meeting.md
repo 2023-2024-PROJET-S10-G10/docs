@@ -153,3 +153,17 @@
 * Continuer la documentation du code
 * Ajouter de requête http client pour l'API
 
+
+# 13 Février
+
+## Ce que nous avons fait
+
+* Continue la documentation du code
+* Crée le design de l'API client + Commence l'implémentation
+* Avance de SQLalchemy (table de versioning select)
+
+## Ce que nous allons faire
+
+* Continuer la documentation du code
+* Continuer l'implémentation de l'API client
+* Continuer SQLalchemy
