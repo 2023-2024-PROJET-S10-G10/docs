@@ -96,3 +96,12 @@
 * SQLalchemy select
 * Poursuite de la documentation du code
 
+# 13 Février
+
+* Reunion avec M. Bruno BZEZNIK
+* Mise en commun des notes
+* Poursuite de la documentation du code
+* Finition de la structure pour l'API client oar3
+* Commencement d'implémentation des appels aux différentes routes
+* Test et observations de l'accès à OAR3
+* Poursuite de SQLalchemy
