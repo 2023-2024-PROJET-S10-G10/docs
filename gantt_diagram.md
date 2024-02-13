@@ -37,9 +37,9 @@ gantt
         Implémenter les solutions                                       : 2024-03-04, 5d
         Implémenter les tests unitaires                                 : 2024-03-04, 5d
     section Sprint Essais et mise en service
-        Tache non défini                        : 2024-03-11, 1d
-        Tache non défini                        : 2024-03-12, 1d
-        Tache non défini                        : 2024-03-13, 1d
-        Tache non défini                        : 2024-03-14, 1d
-        Tache non défini                        : 2024-03-15, 1d
+        Tâche non définie                        : 2024-03-11, 1d
+        Tâche non définie                        : 2024-03-12, 1d
+        Tâche non définie                        : 2024-03-13, 1d
+        Tâche non définie                        : 2024-03-14, 1d
+        Tâche non définie                        : 2024-03-15, 1d
 ```
