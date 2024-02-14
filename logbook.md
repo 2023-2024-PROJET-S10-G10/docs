@@ -105,3 +105,12 @@
 * Commencement d'implémentation des appels aux différentes routes
 * Test et observations de l'accès à OAR3
 * Poursuite de SQLalchemy
+
+## 14 Février
+
+* Réunion avec M. Olivier RICHARD
+* Poursuite de la documentation du code
+* Recherche de fonctionnalités dans prefect
+* Documentation de l'accès à OAR3
+* Suite de l'implémentation des routes
+

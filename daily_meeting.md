@@ -167,3 +167,19 @@
 * Continuer la documentation du code
 * Continuer l'implémentation de l'API client
 * Continuer SQLalchemy
+
+
+# 14 Février
+
+## Ce que nous avons fait
+
+* Continue la documentation du code
+* Continue l'implémentation de l'API client
+* Continue SQLalchemy
+
+## Ce que nous allons faire
+
+* Continue la documentation du code
+* Chercher des fonctionnalités de Prefect (possiblilité de comparer avec ceux de CiGri)
+* Regarder comment faire des appels à l'API OAR3 depuis un code
+* Mise au propre de la réunion du 12 février
