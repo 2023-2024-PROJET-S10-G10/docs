@@ -180,12 +180,12 @@ Les événements permettent à l'utilisateur de lui fournir des informations sur
 
 Plusieurs options sont disponibles :
 
-    -c, --campaign ID                Affiche les événements pour cet ID de campagne or close them (with -f)
+    -c, --campaign ID                Affiche les événements pour cet ID de campagne ou les fermer (avec -f)
     -g, --global                     Affiche les événements globaux actuels (non spécifiques à une campagne)
     -e, --event ID                   Affiche uniquement cet événement ou le fermer (avec -f)
     -f, --fix                        Corrige / Ferme un événement (utilisé avec -e) ou tous les événements d'une campagne (utilisé avec -c)
     -r, --resubmit                   Resoumettre chaque travail concerné par les événements fixés (nécessite -f)
-    -a, --all                        Affiche tous les événements, même ceux qui sont fermés. (Attention: it does not print the current global events)
+    -a, --all                        Affiche tous les événements, même ceux qui sont fermés. (Attention: Cela n'affiche pas les événements globaux actuels)
     -v, --verbose                    Être verbeux
         --version                    Affiche la version de CiGri
     -h, --help                       Affiche l'aide en console
@@ -348,7 +348,7 @@ Plusieurs options sont disponibles :
     -u, --username USERNAME          Affiche seulement les campagnes de USERNAME
     -O, --stdout                     Obtenir le fichier stdout d'un job
     -J, --jdl                        Obtenir le fichier JDL (json) de la campagne
-    -E, --stderr                     Get the stderr file of a job
+    -E, --stderr                     Obtenir un fichier stderr d'un job
         --version                    Affiche la version de CiGri
     -h, --help                       Affiche l'aide en console
 

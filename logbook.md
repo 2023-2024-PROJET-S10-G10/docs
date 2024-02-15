@@ -92,7 +92,25 @@
 # 12 Février
 
 * Création du design de l'API client + début de l'implémentation
-* Commencement de la table versionning
+* Commencement de la table versionning dans SQLalchemy
 * SQLalchemy select
 * Poursuite de la documentation du code
+
+# 13 Février
+
+* Reunion avec M. Bruno BZEZNIK
+* Mise en commun des notes
+* Poursuite de la documentation du code
+* Finition de la structure pour l'API client oar3
+* Commencement d'implémentation des appels aux différentes routes
+* Test et observations de l'accès à OAR3
+* Poursuite de SQLalchemy
+
+## 14 Février
+
+* Réunion avec M. Olivier RICHARD
+* Poursuite de la documentation du code
+* Recherche de fonctionnalités dans prefect
+* Documentation de l'accès à OAR3
+* Suite de l'implémentation des routes
 
