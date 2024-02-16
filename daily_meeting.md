@@ -179,7 +179,37 @@
 
 ## Ce que nous allons faire
 
-* Continue la documentation du code
+* Continuer la documentation du code
 * Chercher des fonctionnalités de Prefect (possiblilité de comparer avec ceux de CiGri)
 * Regarder comment faire des appels à l'API OAR3 depuis un code
 * Mise au propre de la réunion du 12 février
+
+
+# 15 Février
+
+## Ce que nous avons fait
+
+* Continue la documentation du code
+* Cherche des fonctionnalités de Prefect (possiblilité de comparer avec ceux de CiGri)
+* Regarder comment faire des appels à l'API OAR3 depuis un code
+
+## Ce que nous allons faire
+
+* Continuer la documentation du code
+* Chercher des fonctionnalités et des limites de Prefect
+* Réaliser l'appel de l'OAR3 API depuis un code python
+
+
+# 16 Février
+
+## Ce que nous avons fait
+
+* Fini la documentation du code
+* Tests manuels des flows, task, block (avec utilisation de JSON) de Prefect
+* Implémentater un test pour l'API + débogage laborieux
+
+## Ce que nous allons faire
+
+* Apprentissage de RichClic
+* Poursuite des routes pour l'API
+* Étude et tests manuels de Prefect

@@ -114,3 +114,15 @@
 * Documentation de l'accès à OAR3
 * Suite de l'implémentation des routes
 
+## 15 Février
+
+* Finition de la documentation du code
+* Tests manuels des flows, task, block (avec utilisation de JSON) de Prefect
+* Implémentation d'un test pour l'API + débogage laborieux
+
+## 16 Février
+
+* Fin de l'implémentation d'un test unitaire sur le client d'API
+* Discussion et schémas autour de l'utilisation de tests unitaires contenant des appel d'API réelle
+* Étude des solution d’équivalence pour représenter les campagnes et les jobs dans Prefect
+* Fin de la documentation de RichClic

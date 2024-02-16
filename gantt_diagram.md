@@ -21,12 +21,12 @@ gantt
         Apprentissage perfect                                           :active, 2024-02-06, 2d
         Documenter l'API de CiGri                                       :active, 2024-02-06, 2d
         Déterminer comment communiquer avec OAR en python               :active, 2024-02-06, 3d
-        Documenter les codes (le rôle des composants de l'architecture) : 2024-02-09, 8d
+        Documenter les codes (le rôle des composants de l'architecture) :active, 2024-02-09, 8d
         Étude et développement de l'API client                          : 2024-02-09, 8d
         Configurer et interagir avec la BDD via SQLalchemy              : 2024-02-10, 7d
-        Rendez-vous avec M. BZEZNIK                                     : 2024-02-13, 1d
-        Rendez-vous avec M. RICHARD                                     : 2024-02-14, 1d
-        Apprentissage Richclic                                          : 2024-02-16, 1d
+        Rendez-vous avec M. BZEZNIK                                     :active, 2024-02-13, 1d
+        Rendez-vous avec M. RICHARD                                     :active, 2024-02-14, 1d
+        Apprentissage Richclic                                          :active, 2024-02-16, 1d
     section Sprint Réalisation et tests
         Rendez-vous avec M. BZEZNIK (présentation de notre doc)         :crit, 2024-02-19, 4d
         Rédiger les scénarios de tests                                  : 2024-02-19, 2d
