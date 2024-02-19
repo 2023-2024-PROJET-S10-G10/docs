@@ -213,3 +213,17 @@
 * Apprentissage de RichClic
 * Poursuite des routes pour l'API
 * Étude et tests manuels de Prefect
+
+
+# 19 Février
+
+## Ce que nous avons fait
+
+* Apprentissage de RichClic
+* Poursuite des routes pour l'API
+* Étude et tests manuels de Prefect
+
+## Ce que nous allons faire
+
+* Travail sur l'architecture de CiGri à réaliser
+* Étude et tests manuels de Prefect

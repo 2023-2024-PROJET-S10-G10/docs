@@ -16,7 +16,7 @@ Ceci est le dépôt GitHub du projet S10 du Groupe 10 dédié à la documentatio
 
 * Description Architecturale
 
-* [Docmunentation](#documentation)
+* [Documentation](#documentation)
 
 ***
 
@@ -42,4 +42,11 @@ Une fois qu'un membre de l'équipe a achevé une tâche, il soumet une **pull re
 * [Document de cadrage](./docs/doc_cadrage.md)
 
 * [Documentation des commandes `grid`](./docs/cmd_doc.md)
+
+* [Documentation du code CiGri V3](./docs/doc_code_cigri.md)
+
+* [Documentation de l'API de CiGri V3](./docs/doc_API_cigri.md)
+
+* [Documentation de RichClic](./docs/doc_rich_click.md)
+
 

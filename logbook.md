@@ -126,3 +126,8 @@
 * Discussion et schémas autour de l'utilisation de tests unitaires contenant des appel d'API réelle
 * Étude des solution d’équivalence pour représenter les campagnes et les jobs dans Prefect
 * Fin de la documentation de RichClic
+
+## 19 Février
+
+* Composition du schéma d'architecture de CiGri v4 avec l'utilisation de certaines fonctionnalités de Prefect
+* Recopie du schéma de la BDD sur SQLalchemy
