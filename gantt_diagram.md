@@ -27,19 +27,15 @@ gantt
         Rendez-vous avec M. BZEZNIK                                     :active, 2024-02-13, 1d
         Rendez-vous avec M. RICHARD                                     :active, 2024-02-14, 1d
         Apprentissage Richclic                                          :active, 2024-02-16, 1d
-    section Sprint Réalisation et tests
-        Rendez-vous avec M. BZEZNIK (présentation de notre doc)         :crit, 2024-02-19, 4d
-        Rédiger les scénarios de tests                                  : 2024-02-19, 2d
-        Commencer le code python sur les éléments documentés            : 2024-02-19, 2d
-        Implémenter les solutions                                       : 2024-02-20, 3d
-        Implémenter les tests unitaires                                 : 2024-02-22, 3d
-        Vacances                                                        : 2024-02-26, 7d
+    section Sprint Choix et Réalisation
+        Choisir les fonctionnalités de Prefect                          : 2024-02-19, 4d
+        Implémenter les différents composants de l'architecture         : 2024-02-20, 4d
+        Implémenter les tests unitaires                                 : 2024-02-22, 2d
+        Rédiger les scénarios de tests                                  : 2024-03-04, 2d
         Implémenter les solutions                                       : 2024-03-04, 5d
-        Implémenter les tests unitaires                                 : 2024-03-04, 5d
-    section Sprint Essais et mise en service
-        Tâche non définie                        : 2024-03-11, 1d
-        Tâche non définie                        : 2024-03-12, 1d
-        Tâche non définie                        : 2024-03-13, 1d
-        Tâche non définie                        : 2024-03-14, 1d
-        Tâche non définie                        : 2024-03-15, 1d
+        Implémenter les tests                                           : 2024-03-04, 5d
+    section Sprint Réalisation et tests
+        Implémenter les différents composants de l'architecture         : 2024-03-11, 4d
+        Implémenter les tests                                           : 2024-03-11, 4d
+        Soutenance finale                                               : 2024-03-15, 1d
 ```

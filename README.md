@@ -49,4 +49,6 @@ Une fois qu'un membre de l'équipe a achevé une tâche, il soumet une **pull re
 
 * [Documentation de RichClic](./docs/doc_rich_click.md)
 
+* [Documentation de Prefect](./docs/doc_prefect.md)
+
 

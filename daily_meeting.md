@@ -227,3 +227,18 @@
 
 * Travail sur l'architecture de CiGri à réaliser
 * Étude et tests manuels de Prefect
+
+
+# 20 Février
+
+## Ce que nous avons fait
+
+* Composition du schéma d'architecture de CiGri v4 avec l'utilisation de certaines fonctionnalités de Prefect
+* Recopie du schéma de la BDD sur SQLalchemy
+* Implémentation de méthode pour encapsuler les routes de l'API
+
+## Ce que nous allons faire
+
+* Diaporama pour l'audit de mi-parcours
+* Mettre à jour le gantt
+* Document sur Prefect avec proposition

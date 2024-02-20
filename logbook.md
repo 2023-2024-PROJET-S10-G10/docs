@@ -127,7 +127,16 @@
 * Étude des solution d’équivalence pour représenter les campagnes et les jobs dans Prefect
 * Fin de la documentation de RichClic
 
-## 19 Février
+## 19 Février
 
 * Composition du schéma d'architecture de CiGri v4 avec l'utilisation de certaines fonctionnalités de Prefect
 * Recopie du schéma de la BDD sur SQLalchemy
+* implémentation de méthode pour encapsuler les routes de l'API
+
+## 20 Février
+
+* Commencement du diaporama de l'audit de mi-parcours
+* Commencement de la remise en forme de la docummentation de Prefect
+* Réalisation du schéma de l'architecture
+* Poursuite de la rédaction de la liste de fonctionnalités
+* Suite des test set des implémentations des méthodes pour les différentes routes de l'API
