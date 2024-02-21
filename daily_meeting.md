@@ -242,3 +242,22 @@
 * Diaporama pour l'audit de mi-parcours
 * Mettre à jour le gantt
 * Document sur Prefect avec proposition
+
+
+# 21 Février
+
+## Ce que nous avons fait
+
+* Diaporama de l'audit de mi-parcours
+* La remise en forme de la docummentation de Prefect
+* Réalisation du schéma de l'architecture
+* La rédaction de la liste de fonctionnalités
+* Test set des implémentations des méthodes pour les différentes routes de l'API
+
+## Ce que nous allons faire
+
+* Finir le diaporama pour l'audit de mi-parcours
+* Finir la remise en forme de la docummentation de Prefect
+* Finir la liste des fonctionnalités en précisant l'importance et la difficulté
+* Mettre à jour le Gantt
+* Poursuite de l'implémentation des méthodes pour les routes de l'api OAR3

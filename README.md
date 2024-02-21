@@ -51,4 +51,6 @@ Une fois qu'un membre de l'équipe a achevé une tâche, il soumet une **pull re
 
 * [Documentation de Prefect](./docs/doc_prefect.md)
 
+* [Documentation des fonctionnalités](./docs/doc_fonctionnalite.md)
+
 

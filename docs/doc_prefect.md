@@ -31,6 +31,8 @@ Il permet d'automatiser la création de nouveaux flow d'exécution pour les dép
 
 Possibilité de configurer des actions que Prefect exécutera automatiquement en se basant sur les événements. (event-basis triggering)
 
+Cela peut être utile pour l'envoie de mail (avec l'utilisation de block) et de notifications sur divers plateformes comme Slack.
+
 ### Déploiement
 
 #### Local
@@ -47,11 +49,15 @@ Possibilité d'utiliser des services cloud comme AWS, Azure et même Prefect Clo
 
 Possibilité de mettre des workflow dans des conteneurs Docker pour les déployer facilement sur les plateforme prenant en charge Docker.
 
+### Blocks
+
+Ce sont des éléments qui stockent une configuration pour utiliser un service exterieur comme des éléments d'AWS, d'AZURE, des JSON, des Emails, et autres. 
+
 ## Équivalence avec CiGri
 
 Nous avons vu précédemment que nous pouvons exécuter des programmes python et les faire apparaître dans l'interface web de Prefect.
 
-Maintenant, nous voulons savoir si Prefect pourrait remplacer CiGri, du moins pour certaines fonctionnalités. Pour cela, nous allons voir si il existe des équivants pour les commandes `grid`, puis nous allons voir pour les types de jobs.
+Maintenant, nous voulons savoir si Prefect pourrait remplacer CiGri, du moins pour certaines fonctionnalités. Pour cela, nous allons voir si il existe des équivalents pour les commandes `grid`, puis nous allons voir pour les types de jobs.
 
 ### Commandes grid
  
@@ -68,13 +74,13 @@ Et pour chaque événement déclenché, il est possible d'associer une action à
 
 #### gridnotify
 
-Dans les Automations de Prefect, Prefect utilise le service [Sendgrid](https://sendgrid.com/en-us/pricing) pour les notifications sur Discord, Email, Slack, Teams, ...
+Dans les Automations de Prefect, Prefect permet de réaliser des notifications sur Discord, Email, Slack, Teams, ... (pour certains, l'utilisation du service [Sendgrid](https://sendgrid.com/en-us/pricing) est requis).
 
 #### gridstat
 
 Il est possible d'obtenir des informations sur un flow précis avec la commande `prefect flow-run inspect <ID>`.
 
-De même pour le deploiement, avec la commande `prefect deployment inspect <NAME>`.
+De même pour le déploiement, avec la commande `prefect deployment inspect <NAME>`.
 
 De même pour un work-pool, `prefect work-pool inspect <NAME>`.
 
@@ -84,7 +90,7 @@ En ligne de commande, il est possible d'exécuter, annuler et supprimer un flow 
 
 Nous pouvons même supprimer des flows déjà terminés (gridclean), mais pour l'instant, nous n'avons pas la notion de base de données.
 
-De plus, pour les deploiement, nous pouvons supprimer, et modifier le deploiement avec la commande `prefect deployment` + {`apply`;`delete`}
+De plus, pour les déploiement, nous pouvons supprimer, et modifier le déploiement avec la commande `prefect deployment` + {`apply`;`delete`}
 
 Pour les work-pools, nous pouvons les créer, mettre à jour, supprimer, mettre en pause et les reprendre. `prefect work-pool` + {`create`;`update`;`delete`;`pause`;`resume`} + `<NAME>`
 
@@ -98,7 +104,7 @@ Ou tout faire avec une seule commande: `prefect flow-run run <ID>`.
 
 #### gridcluster
 
-_Pas de piste interessante_
+_Pas de piste intéressante_
 
 ## Campagnes et Jobs
 
@@ -106,7 +112,7 @@ _Pas de piste interessante_
 
 TODO: Pros & Cons
 
-Pour trouver les équivalents des campagnes et des jobs dans prefect, nous avons dresser un tableau de proposition:
+Pour trouver les équivalents des campagnes et des jobs dans prefect, nous avons dressé un tableau de proposition (P):
 
 | CiGri    | Prefect P1 | Prefect P2 | Prefect P3 | Prefect P4 |
 | -------- | ---------- | ---------- | ---------- | ---------- |
@@ -117,7 +123,7 @@ Maintenant, il faut peser le pour et le contre.
     
 **Prefect P1**
 - Inconvénients:
-    - Impossible d'intéragir avec la task de façon individuelle
+    - Impossible d'interagir avec la task de façon individuelle
 
 **Prefect P2**
 - Avantages:
@@ -137,11 +143,9 @@ Maintenant, il faut peser le pour et le contre.
 
 ### Choix
 
-Après beaucoup de discussions, nous avons fait des choix: Utiliser Prefect comme historique et un outil de notification, c'est-à-dire, pour chaque changement d'état sur OAR, Prefect sera informé par CiGri V4 en créant un flow dans un déploiement representant un état, dans un work-pool associé à la campagne.
+Après beaucoup de discussions, nous sommes arrivé au point suivant: les seuls fonctionnalités qui peuvent être intéressant pour nous seraient d'utiliser Prefect comme historique, c'est-à-dire, pour chaque changement d'état sur OAR, Prefect sera informé par CiGri V4 en créant un flow dans un déploiement représentant un état, dans un work-pool associé à la campagne.
 
-Donc, nous avons choisi d'utiliser les work-pools comme campagne, les flows comme job et utiliser les déploiements représentants les états du job sur OAR.
+Donc, nous avons choisi d'utiliser les work-pools comme campagne, les flows comme job et utiliser les déploiements représentant les états du job sur OAR.
 
-## Fonctionnalités
-
-TODO: fonctionnalité
+Pour les notifications, nous avons deux possibilités: soit nous utilisons un compte Prefect pour tout CiGri pour avoir un historique centralisé mais nous avons un problème pour l'envoie de mail individuel, soit chaque utilisateur a un compte Prefect, mais l'historique ne sera pas centralisé. 
 

@@ -28,14 +28,15 @@ gantt
         Rendez-vous avec M. RICHARD                                     :active, 2024-02-14, 1d
         Apprentissage Richclic                                          :active, 2024-02-16, 1d
     section Sprint Choix et Réalisation
-        Choisir les fonctionnalités de Prefect                          : 2024-02-19, 4d
-        Implémenter les différents composants de l'architecture         : 2024-02-20, 4d
-        Implémenter les tests unitaires                                 : 2024-02-22, 2d
-        Rédiger les scénarios de tests                                  : 2024-03-04, 2d
-        Implémenter les solutions                                       : 2024-03-04, 5d
-        Implémenter les tests                                           : 2024-03-04, 5d
-    section Sprint Réalisation et tests
-        Implémenter les différents composants de l'architecture         : 2024-03-11, 4d
-        Implémenter les tests                                           : 2024-03-11, 4d
+        Réalisation de l'architecture de CiGri v4                       :active, 2024-02-19, 2d
+        Choisir les fonctionnalités de Prefect                          :active, 2024-02-19, 3d
+        Lister les fonctionnalités par ordre d'importance               :active, 2024-02-20, 2d
+        Implémenter les fonctionnalités d'importance I                  : 2024-02-22, 2d
+        Audit de mi-parcours                                            : 2024-02-23, 1d
+        Implémenter les fonctionnalités d'importance I                  : 2024-03-04, 3d
+        Implémenter les fonctionnalités d'importance II                 : 2024-03-06, 5d
+        Implémenter les fonctionnalités d'importance III                : 2024-03-11, 3d
+        Implémenter les fonctionnalités d'importance IV                 : 2024-03-12, 2d
+        Implémenter les fonctionnalités d'importance V                  : 2024-03-12, 2d
         Soutenance finale                                               : 2024-03-15, 1d
 ```

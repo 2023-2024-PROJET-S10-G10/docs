@@ -140,3 +140,11 @@
 * Réalisation du schéma de l'architecture
 * Poursuite de la rédaction de la liste de fonctionnalités
 * Suite des test set des implémentations des méthodes pour les différentes routes de l'API
+
+## 21 Février
+
+* Finition du diaporama pour l'audit de mi-parcours
+* Finition de la la remise en forme de la docummentation de Prefect
+* Finition de la liste des fonctionnalités en précisant l'importance et la difficulté
+* Mise à jour du diagramme de Gantt
+* Poursuite de l'implémentation des méthodes pour les routes de l'api OAR3
