@@ -49,7 +49,7 @@
 * Planification du sprint d'"Analyse et Documentation" (tâches, temps et priorité)
 * Installation de fastAPI
 
-# 6 Février
+## 6 Février
 
 * Commencement de l'apprentissage de Prefect
 * Commencement de la documentation de l'API
@@ -60,7 +60,7 @@
 * Création d'API de test via FastAPI
 * Commencement de la documentation OAR3 concernant FastAPI.
 
-# 7 Février
+## 7 Février
 
 * Finition de la documentation sur les commandes
 * Documentation API
@@ -70,7 +70,7 @@
 * Avancement dans les recherches sur Prefect
 * Apprentissage SQLalchemy (gestion des champs null et des énumérations)
 
-# 8 Février
+## 8 Février
 
 * Recherche sur le protocole ASGI
 * Finition de la documentation d'API OAR3
@@ -79,7 +79,7 @@
 * Documentation API de CiGri continue
 * Début mise en place encapsulation API OAR3 en python pour cigri
 
-# 9 Février
+## 9 Février
 
 * Mise en place de l'API-client (pas encore de requête)
 * Mise en place de l'API-client stub
@@ -89,14 +89,14 @@
 * Prises de rendez-vous
 * Tester des usages de prefect (github action, API key prefect, workpool)
 
-# 12 Février
+## 12 Février
 
 * Création du design de l'API client + début de l'implémentation
 * Commencement de la table versionning dans SQLalchemy
 * SQLalchemy select
 * Poursuite de la documentation du code
 
-# 13 Février
+## 13 Février
 
 * Reunion avec M. Bruno BZEZNIK
 * Mise en commun des notes
@@ -148,3 +148,17 @@
 * Finition de la liste des fonctionnalités en précisant l'importance et la difficulté
 * Mise à jour du diagramme de Gantt
 * Poursuite de l'implémentation des méthodes pour les routes de l'api OAR3
+
+## 22 Février
+
+* Suite de l'implémentation des requêtes aux routes d'oar API
+* Avancer le développement du JDL paser + ajout de queries pour la BDD
+* Réaliser les descriptions de commandes grid avec RichClic
+
+## 23 Février
+
+* Suite de l'implémentation des requêtes aux routes d'oar API
+* Préparer la présentation (Audit)
+* Continuer l'implémentation du parser JDL
+* Continuer l'implémentation des queries pour la BDD
+* continuer d'implémenter la gestion des paramètres cli

@@ -261,3 +261,37 @@
 * Finir la liste des fonctionnalités en précisant l'importance et la difficulté
 * Mettre à jour le Gantt
 * Poursuite de l'implémentation des méthodes pour les routes de l'api OAR3
+
+
+# 22 Février
+
+## Ce que nous avons fait
+
+* Finition du diaporama pour l'audit de mi-parcours
+* Finition de la remise en forme de la docummentation de Prefect
+* Finition de la liste des fonctionnalités en précisant l'importance et la difficulté
+* Mise à jour le Gantt
+* Poursuite de l'implémentation des méthodes pour les routes de l'api OAR3
+
+## Ce que nous allons faire
+
+* Réaliser les descriptions de commandes grid avec RichClic
+* SQL alchemy
+* Réaliser le JDL Parser + Commencer l'ajout de données du JDL dans la BDD
+* API OAR3
+
+
+# 23 Février
+
+## Ce que nous avons fait
+
+* Suite de l'implémentation des requêtes aux routes d'oar API
+* Avancer le développement du JDL-paser + ajout de queries pour la BDD
+* Réaliser les descriptions de commandes grid avec RichClic
+
+## Ce que nous allons faire
+
+* Préparation de la présentation (Audit)
+* Continuer l'implémentation du parser JDL
+* Continuer l'implémentation des queries pour la BDD
+* Continuer d'implémenter la gestion des paramètres cli

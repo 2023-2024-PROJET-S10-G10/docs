@@ -110,8 +110,6 @@ _Pas de piste intéressante_
 
 ### Propositions d'équivalence
 
-TODO: Pros & Cons
-
 Pour trouver les équivalents des campagnes et des jobs dans prefect, nous avons dressé un tableau de proposition (P):
 
 | CiGri    | Prefect P1 | Prefect P2 | Prefect P3 | Prefect P4 |
