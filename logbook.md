@@ -162,3 +162,8 @@
 * Continuer l'implémentation du parser JDL
 * Continuer l'implémentation des queries pour la BDD
 * continuer d'implémenter la gestion des paramètres cli
+
+## 4 Mars
+
+* Finition du poster
+

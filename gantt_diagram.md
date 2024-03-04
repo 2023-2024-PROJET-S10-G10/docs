@@ -22,8 +22,8 @@ gantt
         Documenter l'API de CiGri                                       :active, 2024-02-06, 2d
         Déterminer comment communiquer avec OAR en python               :active, 2024-02-06, 3d
         Documenter les codes (le rôle des composants de l'architecture) :active, 2024-02-09, 8d
-        Étude et développement de l'API client                          : 2024-02-09, 8d
-        Configurer et interagir avec la BDD via SQLalchemy              : 2024-02-10, 7d
+        Étude et développement de l'API client                          :active, 2024-02-09, 8d
+        Configurer et interagir avec la BDD via SQLalchemy              :active, 2024-02-10, 7d
         Rendez-vous avec M. BZEZNIK                                     :active, 2024-02-13, 1d
         Rendez-vous avec M. RICHARD                                     :active, 2024-02-14, 1d
         Apprentissage Richclic                                          :active, 2024-02-16, 1d
@@ -33,6 +33,7 @@ gantt
         Lister les fonctionnalités par ordre d'importance               :active, 2024-02-20, 2d
         Implémenter les fonctionnalités d'importance I                  : 2024-02-22, 2d
         Audit de mi-parcours                                            :active, 2024-02-23, 1d
+        Poster de présentation en anglais                               : 2024-03-04, 1d
         Implémenter les fonctionnalités d'importance I                  : 2024-03-04, 3d
         Implémenter les fonctionnalités d'importance II                 : 2024-03-06, 5d
         Implémenter les fonctionnalités d'importance III                : 2024-03-11, 3d

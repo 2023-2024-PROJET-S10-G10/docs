@@ -295,3 +295,19 @@
 * Continuer l'implémentation du parser JDL
 * Continuer l'implémentation des queries pour la BDD
 * Continuer d'implémenter la gestion des paramètres cli
+
+
+# 4 Mars
+
+## Ce que nous avons fait
+
+* Commencement du poster en anglais.
+* Création d'un fichier contenant les requêtes SQL.
+* Intégration des requêtes SQL du fichier, précédemment cité, dans le code du JDL Parser.
+* Fini le code de l'encapsulation pour l'API OAR.
+
+## Ce que nous allons faire
+
+* Finir le poster
+* Commencer le manager
+* Finir les requêtes dans queries.py
