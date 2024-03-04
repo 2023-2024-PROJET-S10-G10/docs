@@ -165,5 +165,16 @@
 
 ## 4 Mars
 
-* Finition du poster
+* Finalisation du poster
+* Finalisation encapsulation API OAR3
+* Développement d'une FAP pour le scheduler
+* Tests unitaires pour les FAP
+* Commencement de développement du scheduler
+* Finalisation des options cli pour les commandes cigri
+* Codage du manager événementiel
+* Review de PR
+* Ajout de requêtes SQL dans queries.py
+* Ajout de tests sur les méthodes de queries
+* Amélioration de la configuration de la BDD
+
 
