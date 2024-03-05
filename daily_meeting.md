@@ -309,5 +309,27 @@
 ## Ce que nous allons faire
 
 * Finir le poster
-* Commencer le manager
+* Commencer le manager "événementiel"
 * Finir les requêtes dans queries.py
+
+
+# 5 Mars
+
+## Ce que nous avons fait
+
+* Finir le poster
+* Commencer le manager
+* Fini les requêtes liés aux fonctionnalités d'importance I dans queries.py
+* Réaliser les scénarios de tests pour les requêtes
+* Commencer l'implémentation des test pour les requêtes
+
+## Ce que nous allons faire
+
+* Implémenter les tests pour les requêtes
+* Améliorer la confiiguration de la BDD
+* Mettre à jour le github action pour les tests de requêtes
+* Mettre en place des pre commits
+* Initialiser un scheduler de base avec tests
+* Initialiser une base pour l'API de CiGri
+
+

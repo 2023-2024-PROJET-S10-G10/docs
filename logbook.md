@@ -177,4 +177,14 @@
 * Ajout de tests sur les méthodes de queries
 * Amélioration de la configuration de la BDD
 
+## 5 Mars
+
+* Début des commandes grids avec du mocking
+* Mise en place des pre commits
+* Mise à jour le github action pour les tests de requêtes
+* Implémentation des tests pour les requêtes
+* Amélioration de la confiiguration de la BDD (contraire d'unicité et autres)
+* Initialisation d'un scheduler de base avec tests
+* Initialisation d'une base pour l'API de CiGri
+* Ajout d'un "ApiClientStub handle multiple mocked value" avec tests
 
