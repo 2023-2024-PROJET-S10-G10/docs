@@ -84,23 +84,23 @@ Légende:
 | Stocker les campagnes                                                  | 1          |  |
 | Gestion de campagnes multiples                                         | 1          |  |
 | Création d'une liste de jobs à soumettre pour une campagne             | 1          |  |
-| Utilisation d'un scheduler sans famine                                 | 1          |  |
+| Utilisation d'un scheduler sans famine                                 | 1          | :heavy_check_mark: |
 | Soumission adaptative des jobs d'une campagne                          | 1          |  |
 | Respecter l'affinité des clusters                                      | 2          |  |
 | Respecter l'affinité des users                                         | 2          |  |
 | Ne pas surcharger les clusters (stress factor)                         | 2          |  |
 | Fournir une API complète pour l'utilisateur                            | 3          |  |
 | Version locale                                                         | 4          |  |
-| Utiliser les JWT Token pour l'authentification auprès de l'API d'OAR 3 | 1          |  |
+| Utiliser les JWT Token pour l'authentification auprès de l'API d'OAR 3 | 1          | :heavy_check_mark: |
 | Concaténer des jobs lorsqu'ils sont trop courts                        | 2          |  |
-| Être capable d’interagir avec l'API d'OAR 3                            | 1          |  |
+| Être capable d’interagir avec l'API d'OAR 3                            | 1          | :heavy_check_mark: |
 |                                                                        |            |  |
 | Supporter les campagnes normales                                       | 1          |  |
 | Supporter les campagnes en best effort                                 | 1          |  |
 | Supporter les campagnes en semi best effort                            | 4          |  |
 | Supporter les campagnes en nightly                                     | 4          |  |
 |                                                                        |            |  |
-| Pouvoir parser des fichiers JDL                                        | 1          |  |
+| Pouvoir parser des fichiers JDL                                        | 1          | :heavy_check_mark: |
 | Stocker les données de JDL en BDD                                      | 1          |  |
 | Supporter les macros variables des fichiers JDL                        | 2          |  |
 | Retourner des messages claires lors de l’interaction avec l'API        | 2          |  |
