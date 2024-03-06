@@ -326,10 +326,25 @@
 ## Ce que nous allons faire
 
 * Implémenter les tests pour les requêtes
-* Améliorer la confiiguration de la BDD
+* Améliorer la configuration de la BDD
 * Mettre à jour le github action pour les tests de requêtes
 * Mettre en place des pre commits
 * Initialiser un scheduler de base avec tests
 * Initialiser une base pour l'API de CiGri
 
+
+# 6 Mars
+
+## Ce que nous avons fait
+
+* Implémentation de tests pour les requêtes
+* Aamélioration de la configuration de la BDD (ajout de contraints)
+* Implémentation de la commande gridcluster
+* Mise en place de la structure de l'API CiGri
+
+## Ce que nous allons faire
+
+* Implémenter les tests pour JDLParser
+* Implémenter les tests pour Rich Click
+* Implémenter une commande grid
 

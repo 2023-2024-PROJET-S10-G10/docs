@@ -188,3 +188,12 @@
 * Initialisation d'une base pour l'API de CiGri
 * Ajout d'un "ApiClientStub handle multiple mocked value" avec tests
 
+## 6 Mars
+
+* Ajout d'un assert pour les exceptions dans le TestManager
+* Finalisation de l'API de CiGri
+* Implémentation dde la commande gridcluster
+* Commencement de l'inplémentation de griddel
+* Implémentation des tests pour JDLParser
+* Amélioration des requêtes + tests
+
