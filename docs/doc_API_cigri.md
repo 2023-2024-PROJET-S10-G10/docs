@@ -4,32 +4,32 @@
 
 Il est possible d'ajouter `?pretty=true` à une requête API afin de recevoir un json lisible.
 
-| HTTPrequest | URL                                                    | Action                                                                          | Method Name         |
-| :---------- | :----------------------------------------------------- | :------------------------------------------------------------------------------ | :------------------ |
-| GET         | /                                                      | Liste les routes disponibles dans l'API                                         | routes              |
-| GET         | /clusters                                              | Liste les clusters disponibles dans Cigri                                       | clusters            |
-| GET         | /clusters/<cluster_id>                                 | Récupère les informations d'un cluster en particulier                           | cluster             |
-| GET         | /campaigns                                             | Liste toutes les campagnes en cours                                             | campains            |
-| GET         | /campaigns/<campaign_id>                               | Récupère les informations d'une campagne en particulier                         | campain             |
-| GET         | /campaigns/<campaign_id>/jdl                           | Récupère le JDL d'une campagne en particulier                                   | campainJDL          |
-| GET         | /campaigns/<campaign_id>/jobs                          | Liste l'ensemble des jobs d'une campagne spécifique                             | campainJobs         |
-| GET         | /campaigns/<campaign_id>/jobs/<job_id>                 | Récupère le détail d'un job spécifique d'une campagne en particulier            | campainJob          |
-| GET         | /campaigns/<campaign_id>/jobs?limit=<int>&offset=<int> | Récupère les jobs à partir d'un offset et d'une limite [offset: offset + limit] | campainJobs         |
-| GET         | /campaigns/<campaign_id>/jobs/finished                 | Récupère les jobs terminés de la campagne spécifiée                             | campainFinishedJobs |
-| POST        | /campaigns                                             | Soumettre une nouvelle campagne                                                 | submitCampain       |
-| PUT         | /campaigns/<campaign_id>                               | Mettre à jour une campagne (status, nom)                                        | updateCampain       |
-| DELETE      | /campaigns/<campaign_id>                               | Supprime une campagne                                                           | deleteCampain       |
-| GET         | /campaigns/<campaign_id>/events                        | Liste les événements d'une campagne donnée                                      | campainEvents       |
-| DELETE      | /campaigns/<campaign_id>/events                        | Corrige (ferme) les événements d'une campagne donnée                            | deleteCampainEvents |
-| GET         | /notifications                                         | Liste les abonnements aux notifications de l'utilisateur actuel                 | notifications       |
-| POST        | /notifications/mail                                    | S'abonner au service de notification mail                                       | subscribeMail       |
-| POST        | /notifications/jabber                                  | S'abonner au service de notification Jabber                                     | subscribeJabber     |
-| DELETE      | /notifications/<mail/jabber>                           | Se désabonner d'un système de notification                                      | unsubscribe         |
-| GET         | /events/<id>                                           | Récupère un événement spécifique                                                | event               |
-| DELETE      | /events/<id>                                           | Corrige (ferme) l'événement spécifié                                            | deleteEvent         |
-| DELETE      | /events/<id>?resubmit=1                                | Corrige (ferme) l'événement spécifié et resoumet le job                         | deleteEvent         |
-| GET         | /gridusage                                             | Récupère l'usage actuel de la grille                                            | gridUsage           |
-| GET         | /gridusage?from=<date>&to=<date>                       | Récupère l'usage actuel entre 2 dates (unix timestamps)                         | gridUsage           |
+| HTTPrequest | URL                                                    | Action                                                                          | Method Name          |
+| :---------- | :----------------------------------------------------- | :------------------------------------------------------------------------------ | :------------------- |
+| GET         | /                                                      | Liste les routes disponibles dans l'API                                         | routes               |
+| GET         | /clusters                                              | Liste les clusters disponibles dans Cigri                                       | clusters             |
+| GET         | /clusters/<cluster_id>                                 | Récupère les informations d'un cluster en particulier                           | cluster              |
+| GET         | /campaigns                                             | Liste toutes les campagnes en cours                                             | campaigns            |
+| GET         | /campaigns/<campaign_id>                               | Récupère les informations d'une campagne en particulier                         | campaign             |
+| GET         | /campaigns/<campaign_id>/jdl                           | Récupère le JDL d'une campagne en particulier                                   | campaignJDL          |
+| GET         | /campaigns/<campaign_id>/jobs                          | Liste l'ensemble des jobs d'une campagne spécifique                             | campaignJobs         |
+| GET         | /campaigns/<campaign_id>/jobs/<job_id>                 | Récupère le détail d'un job spécifique d'une campagne en particulier            | campaignJob          |
+| GET         | /campaigns/<campaign_id>/jobs?limit=<int>&offset=<int> | Récupère les jobs à partir d'un offset et d'une limite [offset: offset + limit] | campaignJobs         |
+| GET         | /campaigns/<campaign_id>/jobs/finished                 | Récupère les jobs terminés de la campagne spécifiée                             | campaignFinishedJobs |
+| POST        | /campaigns                                             | Soumettre une nouvelle campagne                                                 | submitCampaign       |
+| PUT         | /campaigns/<campaign_id>                               | Mettre à jour une campagne (status, nom)                                        | updateCampaign       |
+| DELETE      | /campaigns/<campaign_id>                               | Supprime une campagne                                                           | deleteCampaign       |
+| GET         | /campaigns/<campaign_id>/events                        | Liste les événements d'une campagne donnée                                      | campaignEvents       |
+| DELETE      | /campaigns/<campaign_id>/events                        | Corrige (ferme) les événements d'une campagne donnée                            | deleteCampaignEvents |
+| GET         | /notifications                                         | Liste les abonnements aux notifications de l'utilisateur actuel                 | notifications        |
+| POST        | /notifications/mail                                    | S'abonner au service de notification mail                                       | subscribeMail        |
+| POST        | /notifications/jabber                                  | S'abonner au service de notification Jabber                                     | subscribeJabber      |
+| DELETE      | /notifications/<mail/jabber>                           | Se désabonner d'un système de notification                                      | unsubscribe          |
+| GET         | /events/<id>                                           | Récupère un événement spécifique                                                | event                |
+| DELETE      | /events/<id>                                           | Corrige (ferme) l'événement spécifié                                            | deleteEvent          |
+| DELETE      | /events/<id>?resubmit=1                                | Corrige (ferme) l'événement spécifié et resoumet le job                         | deleteEvent          |
+| GET         | /gridusage                                             | Récupère l'usage actuel de la grille                                            | gridUsage            |
+| GET         | /gridusage?from=<date>&to=<date>                       | Récupère l'usage actuel entre 2 dates (unix timestamps)                         | gridUsage            |
 
 ## Accéder à l'API
 
