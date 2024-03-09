@@ -193,7 +193,20 @@
 * Ajout d'un assert pour les exceptions dans le TestManager
 * Finalisation de l'API de CiGri
 * Implémentation dde la commande gridcluster
-* Commencement de l'inplémentation de griddel
+* Commencement de l'implémentation de griddel
 * Implémentation des tests pour JDLParser
 * Amélioration des requêtes + tests
 
+## 7 Mars
+
+* Poursuite du code de griddel
+* Réorganisation de branches locales
+* Organisation pour implémentation des routes API CiGri v4
+
+## 8 Mars
+
+* Ajout de la BDD et du jdl parser sur la branche main
+* Début d'ajout d'une route dans le backend
+* Mise en pause de la fonction griddel (par manque de possibilités de test)
+* Commencement de la fonction gridsub (en test)
+* Préparation de queries pour les fonctionnalités de priorité 2

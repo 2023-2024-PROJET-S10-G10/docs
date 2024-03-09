@@ -338,7 +338,7 @@
 ## Ce que nous avons fait
 
 * Implémentation de tests pour les requêtes
-* Aamélioration de la configuration de la BDD (ajout de contraints)
+* Amélioration de la configuration de la BDD (ajout de contraints)
 * Implémentation de la commande gridcluster
 * Mise en place de la structure de l'API CiGri
 
@@ -347,4 +347,39 @@
 * Implémenter les tests pour JDLParser
 * Implémenter les tests pour Rich Click
 * Implémenter une commande grid
+
+
+# 7 Mars
+
+## Ce que nous avons fait
+
+* Ajout d'un assert pour les exceptions dans le TestManager
+* Finalisation de l'API de CiGri
+* Implémentation dde la commande gridcluster
+* Commencement de l'implémentation de griddel
+* Implémentation des tests pour JDLParser
+* Amélioration des requêtes + tests
+
+## Ce que nous allons faire
+
+* Poursuite de l'implémentation du code de griddel
+* Réorganisation de branches locales
+* Organisation pour implémentation des routes API CiGri v4
+
+# 8 Mars
+
+## Ce que nous avons fait
+
+* Poursuite de l'implémentation du code de griddel
+* Réorganisation de branches locales
+* Organisation pour implémentation des routes API CiGri v4
+* Validation de Pull Requests
+
+## Ce que nous allons faire
+
+* Ajout de la BDD et du jdl parser sur la branche main
+* Tentative de création d'une route dans le backend
+* Avancement de la fonction griddel
+* Commencement de la fonction gridsub
+* Préparation de queries pour les fonctionnalités de priorité 2
 
