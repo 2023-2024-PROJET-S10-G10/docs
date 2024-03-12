@@ -133,14 +133,24 @@
                         <mxPoint x="-230" y="700" as="targetPoint"/>
                         <Array as="points">
                             <mxPoint x="-330" y="580"/>
-                            <mxPoint x="-280" y="580"/>
-                            <mxPoint x="-280" y="705"/>
+                            <mxPoint x="-290" y="580"/>
+                            <mxPoint x="-290" y="705"/>
                         </Array>
                         <mxPoint x="-310" y="482" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="110" value="&lt;font&gt;Mail service&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EF476F;fontColor=#FFFFFF;strokeColor=#6F0000;" vertex="1" parent="1">
                     <mxGeometry x="210" y="653" width="130" height="93" as="geometry"/>
+                </mxCell>
+                <mxCell id="112" style="edgeStyle=orthogonalEdgeStyle;html=1;fontColor=#000000;endArrow=oval;endFill=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="31" target="99">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-220" y="715" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="-260" y="442"/>
+                            <mxPoint x="-260" y="705"/>
+                        </Array>
+                        <mxPoint x="-320" y="591" as="sourcePoint"/>
+                    </mxGeometry>
                 </mxCell>
             </root>
         </mxGraphModel>
