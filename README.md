@@ -43,16 +43,26 @@ Une fois qu'un membre de l'équipe a achevé une tâche, il soumet une **pull re
 
 * [Document de cadrage](./docs/doc_cadrage.md)
 
-* [Documentation des commandes `grid`](./docs/cmd_doc.md)
+* [Documentation des commandes `grid`](./docs/doc_cmd.md)
 
 * [Documentation du code CiGri V3](./docs/doc_code_cigri.md)
 
 * [Documentation de l'API de CiGri V3](./docs/doc_API_cigri.md)
 
-* [Documentation de RichClic](./docs/doc_rich_click.md)
+* [Documentation de Rich Click](./docs/doc_rich_click.md)
 
 * [Documentation de Prefect](./docs/doc_prefect.md)
 
 * [Documentation des fonctionnalités](./docs/doc_fonctionnalite.md)
 
+## Soutenance
 
+* [Présentation intermédiaire](./Soutenance/Audit-mi%20parcours%20-%20Projet%20S10.pdf)
+
+* [Poster](./Soutenance/POSTER-TEAM10.pdf)
+
+* [Flyer](./Soutenance/Projet%20S10%20-%20Flyer.pdf)
+
+* Présentation finale
+
+* [Rapport final](./Soutenance/Rapport_Final_Groupe_10-2024.md)

@@ -38,7 +38,7 @@ Ci-dessous se trouve 2 versions de l'architecture pour CiGri v4, une architectur
 Une partie importante de ce projet est de tester la viabilité de Prefect pour remplacer CiGri, tester s'il est possible d'adapter l'architecture actuelle pour utiliser Prefect.
 Après une grande période de recherche, nous sommes rapidement arrivé à la conclusion qu'il ne serait pas possible d'utiliser exclusivement Prefect. En effet, pour utiliser pleinement Prefect, il faut remplacer toute l'installation actuelle pour réaliser des appels à Prefect. Cela implique notamment de recoder OAR ce qui n'est pas envisageable dans le temps disponible pour les projets S10.
 
-![Architecture de CiGri v4 avec prefect](https://codimd.math.cnrs.fr/uploads/d45be488caa29469ce389e87c.png)
+![Architecture de CiGri v4 avec prefect](../docs/img/architecture_cigri_v4_avec_prefect.png)
 
 Nous avons donc envisagé d'utiliser partiellement Prefect dans CiGri en l'utilisant comme une surcouche de CiGri comme illustré dans l'image ci-dessus. Dit autrement en conservant le comportement de CiGri v3 que l'on adapte en Python en rajoutant un front end avec Prefect. Cependant, cette version rajouterait beaucoup de complexité et de contrainte pour des résultats peu probants.
 En effet, cela soulève la question de comment doit être réalisé l'accès à Prefect pour l'utilisateur. Il faudrait un compte par utilisateur, le problème étant que chaque compte a le droit à seulement un workspace Prefect. Il existe une contrainte de performance, car l'implémentation imposerait de mettre à jour l'ensemble des workspaces en parallèle, sachant qu'il y en aurait autant qu'il y a d'utilisateurs. Tout cela résulterait en des performances médiocres ainsi qu'une empreinte carbone élevée.
@@ -50,7 +50,7 @@ Il est toutefois important de noter que des fonctionnalités premiums sont dispo
 
 ### Architecture sans Prefect
 
-![Architecture de CiGri v4 sans prefect](https://codimd.math.cnrs.fr/uploads/d45be488caa29469ce389e87b.png)
+![Architecture de CiGri v4 sans prefect](../docs/img/architecture_cigri_v4_sans_prefect.png)
 
 Expliquons le rôle de chacun des composants de CiGri v4 :
 
