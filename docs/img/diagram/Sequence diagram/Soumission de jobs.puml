@@ -1,0 +1,33 @@
+@startuml Soumission de jobs
+
+actor BDD
+actor Manager as M
+actor "Meta scheduler" as MS
+actor Submitter as S
+actor Pooler as P
+actor OAR
+
+BDD --> M : Event nouvelle campagne
+M --> MS : Transmission de l'ID de la campagne
+MS --> BDD : Requête la liste des jobs de la nouvelle campagne
+BDD --> MS : Liste des jobs de la nouvelle campagne
+MS --> S : Soumission job 1 de la campagne
+MS --> S : Soumission job 2 de la campagne
+S --> OAR : Soumission job 1
+OAR --> S : Job ID
+S --> BDD : UPDATE job = submitter
+S --> M : Event Job 1 envoyé
+M --> P : Job 1 ajouté aux job à pooler
+P --> OAR : Requête l'état du job 1
+OAR --> P : Retour de l'état du job 1 (Waiting)
+P --> M : Event update job 1 = waiting
+M --> BDD : Update job 1 = waiting
+P --> OAR : Requête l'état du job 1
+OAR --> P : Retour de l'état du job 1 (Running)
+P --> M : Event update job 1 = running
+M --> BDD : Update jo 1 = running
+M --> S : Signale le début d'exécution du job 1
+S --> OAR : Soumission Job 2
+
+
+@enduml

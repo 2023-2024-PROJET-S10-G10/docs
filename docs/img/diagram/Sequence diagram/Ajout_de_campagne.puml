@@ -1,0 +1,39 @@
+@startuml Ajout de campagne dans la BDD réussi
+
+actor User
+actor "Rich-Click" as RC
+actor API
+actor "JDL Parser" as JDL
+actor BDD
+
+User --> RC : gridsub
+RC --> API : Requête HTTP
+API --> JDL : Parsing
+JDL --> BDD : Query
+
+BDD --> JDL : Pas d'erreur
+JDL --> API : Pas d'erreur
+API --> RC : Ok
+RC --> User : Message/Feedback
+
+@enduml
+
+@startuml Ajout de campagne dans la BDD échoué
+
+actor User
+actor "Rich-Click" as RC
+actor API
+actor "JDL Parser" as JDL
+actor BDD
+
+User --> RC : gridsub
+RC --> API : Requête HTTP
+API --> JDL : Parsing
+JDL --> BDD : Query
+
+BDD --> JDL : Erreur
+JDL --> API : Erreur
+API --> RC : Internal Server Error
+RC --> User : Message d'erreur
+
+@enduml
