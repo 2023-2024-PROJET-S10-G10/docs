@@ -68,8 +68,8 @@
 
 ## Ce que nous avons fait
 
-* Fini le document de cadrage demandé par M. Emmanuelle TRÉHOUST
-* Fini la planification du sprint d'"Analyse et Documentation" 
+* Finalisation du document de cadrage demandé par M. Emmanuelle TRÉHOUST
+* Finalisation de la planification du sprint d'"Analyse et Documentation" 
 
 ## Ce que nous allons faire
 
@@ -105,7 +105,7 @@
 
 ## Ce que nous avons fait
 
-* Fini la documentation sur les commandes
+* Finalisation de la documentation sur les commandes
 * Documentation API
     * Découverte de nouvelles routes via le code ruby et le linkage fournie en réponse
 * Commencer l'apprentissage du protocole ASGI
@@ -125,7 +125,7 @@
 ## Ce que nous avons fait
 
 * Recherche sur le protocole ASGI
-* Fini la documentation d'API OAR3
+* Finalisation de la documentation d'API OAR3
 * Recherche d'informations sur Prefect faite
 * Continue sur l'apprentissage SQLalchemy
 * Continue la documentation API de CiGri
@@ -142,9 +142,9 @@
 
 ## Ce que nous avons fait
 
-* Fini la documentation de l'API
+* Finalisation de la documentation de l'API
 * Appliquer les contraintes dans SQLalchemy
-* Fini la découverte de Prefect
+* Finalisation de la découverte de Prefect
 
 ## Ce que nous allons faire
 
@@ -204,7 +204,7 @@
 
 ## Ce que nous avons fait
 
-* Fini la documentation du code
+* Finalisation de la documentation du code
 * Tests manuels des flows, task, block (avec utilisation de JSON) de Prefect
 * Implémentater un test pour l'API + débogage laborieux
 
@@ -267,9 +267,9 @@
 
 ## Ce que nous avons fait
 
-* Finition du diaporama pour l'audit de mi-parcours
-* Finition de la remise en forme de la docummentation de Prefect
-* Finition de la liste des fonctionnalités en précisant l'importance et la difficulté
+* Finalisation du diaporama pour l'audit de mi-parcours
+* Finalisation de la remise en forme de la docummentation de Prefect
+* Finalisation de la liste des fonctionnalités en précisant l'importance et la difficulté
 * Mise à jour le Gantt
 * Poursuite de l'implémentation des méthodes pour les routes de l'api OAR3
 
@@ -304,10 +304,115 @@
 * Commencement du poster en anglais.
 * Création d'un fichier contenant les requêtes SQL.
 * Intégration des requêtes SQL du fichier, précédemment cité, dans le code du JDL Parser.
-* Fini le code de l'encapsulation pour l'API OAR.
+* Finalisation du code de l'encapsulation pour l'API OAR.
 
 ## Ce que nous allons faire
 
 * Finir le poster
-* Commencer le manager
+* Commencer le manager "événementiel"
 * Finir les requêtes dans queries.py
+
+
+# 5 Mars
+
+## Ce que nous avons fait
+
+* Finalisation du poster
+* Commencer le manager
+* Finalisation des requêtes liés aux fonctionnalités d'importance I dans queries.py
+* Réaliser les scénarios de tests pour les requêtes
+* Commencer l'implémentation des test pour les requêtes
+
+## Ce que nous allons faire
+
+* Implémenter les tests pour les requêtes
+* Améliorer la configuration de la BDD
+* Mettre à jour le github action pour les tests de requêtes
+* Mettre en place des pre commits
+* Initialiser un scheduler de base avec tests
+* Initialiser une base pour l'API de CiGri
+
+
+# 6 Mars
+
+## Ce que nous avons fait
+
+* Implémentation de tests pour les requêtes
+* Amélioration de la configuration de la BDD (ajout de contraints)
+* Implémentation de la commande gridcluster
+* Mise en place de la structure de l'API CiGri
+
+## Ce que nous allons faire
+
+* Implémenter les tests pour JDLParser
+* Implémenter les tests pour Rich Click
+* Implémenter une commande grid
+
+
+# 7 Mars
+
+## Ce que nous avons fait
+
+* Ajout d'un assert pour les exceptions dans le TestManager
+* Finalisation de l'API de CiGri
+* Implémentation dde la commande gridcluster
+* Commencement de l'implémentation de griddel
+* Implémentation des tests pour JDLParser
+* Amélioration des requêtes + tests
+
+## Ce que nous allons faire
+
+* Poursuite de l'implémentation du code de griddel
+* Réorganisation de branches locales
+* Organisation pour implémentation des routes API CiGri v4
+
+
+# 8 Mars
+
+## Ce que nous avons fait
+
+* Poursuite de l'implémentation du code de griddel
+* Réorganisation de branches locales
+* Organisation pour implémentation des routes API CiGri v4
+* Validation de Pull Requests
+
+## Ce que nous allons faire
+
+* Ajout de la BDD et du jdl parser sur la branche main
+* Tentative de création d'une route dans le backend
+* Avancement de la fonction griddel
+* Commencement de la fonction gridsub
+* Préparation de queries pour les fonctionnalités de priorité 2
+
+
+# 11 Mars
+
+## Ce que nous avons fait
+
+* Ajout de la BDD et du jdl parser sur la branche main
+* Début d'ajout d'une route dans le backend
+* Mise en pause de la fonction griddel (par manque de possibilités de test)
+* Commencement de la fonction gridsub (en test)
+* Préparation de queries pour les fonctionnalités de priorité 2
+* Essai de faire une route complète
+
+## Ce que nous allons faire
+
+* Commencer l'initiator (le programme qui lance l'API et la BDD)
+* Continuer l'essai de faire une route complète
+* Finir l'implémentation de gridcluster
+
+
+# 12 Mars
+
+## Ce que nous avons fait
+
+* Création de l'Initiator
+* Finalisation de l'implémentation de gridcluster
+* Commencement de la réalisation de gridstat
+* Création de requêtes de récupérations de multiples campagnes et évènements, tests associés
+
+## Ce que nous allons faire
+
+* Réaliser les livrables (Rapport, Flyer, ...)
+

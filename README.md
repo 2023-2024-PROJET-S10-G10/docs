@@ -4,6 +4,8 @@
 Ceci est le dépôt GitHub du projet S10 du Groupe 10 dédié à la documentation.
 ```
 
+[**Dépôt dédié à l'application**](https://github.com/2023-2024-PROJET-S10-G10/app) 
+
 ## Sommaire
 
 * [L'attribution des rôles](./ROLES_10.md)

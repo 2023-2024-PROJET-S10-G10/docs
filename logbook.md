@@ -13,7 +13,7 @@
 * Reunion avec M. Bruno BZEZNIK
 * Mise en commun des notes
 * Commencement à l'initiation à Ruby
-* Fini de mettre en place l'environnement de test
+* Fini de la mise en place l'environnement de test
 * Documentation environnement de test
 * Mise en place d'un dump en json pour garder une trace des tests
 * Récupération d'info sur le passage des tests
@@ -62,7 +62,7 @@
 
 ## 7 Février
 
-* Finition de la documentation sur les commandes
+* Finalisation de la documentation sur les commandes
 * Documentation API
     * Découverte de nouvelles routes via le code ruby et le linkage fournie en réponse
 * Apprentissage du protocole ASGI
@@ -73,7 +73,7 @@
 ## 8 Février
 
 * Recherche sur le protocole ASGI
-* Finition de la documentation d'API OAR3
+* Finalisation de la documentation d'API OAR3
 * Recherche d'informations sur Prefect faite
 * Apprentissage SQLalchemy continue
 * Documentation API de CiGri continue
@@ -84,7 +84,7 @@
 * Mise en place de l'API-client (pas encore de requête)
 * Mise en place de l'API-client stub
 * Création de tests unitaire sur l'API-client stub
-* Finition de la documantation de l'API de CiGri
+* Finalisation de la documantation de l'API de CiGri
 * Attributions de contraintes sur la BDD
 * Prises de rendez-vous
 * Tester des usages de prefect (github action, API key prefect, workpool)
@@ -101,7 +101,7 @@
 * Reunion avec M. Bruno BZEZNIK
 * Mise en commun des notes
 * Poursuite de la documentation du code
-* Finition de la structure pour l'API client oar3
+* Finalisation de la structure pour l'API client oar3
 * Commencement d'implémentation des appels aux différentes routes
 * Test et observations de l'accès à OAR3
 * Poursuite de SQLalchemy
@@ -116,16 +116,16 @@
 
 ## 15 Février
 
-* Finition de la documentation du code
+* Finalisation de la documentation du code
 * Tests manuels des flows, task, block (avec utilisation de JSON) de Prefect
 * Implémentation d'un test pour l'API + débogage laborieux
 
 ## 16 Février
 
-* Fin de l'implémentation d'un test unitaire sur le client d'API
+* Finalisation de l'implémentation d'un test unitaire sur le client d'API
 * Discussion et schémas autour de l'utilisation de tests unitaires contenant des appel d'API réelle
 * Étude des solution d’équivalence pour représenter les campagnes et les jobs dans Prefect
-* Fin de la documentation de RichClic
+* Finalisation de la documentation de RichClic
 
 ## 19 Février
 
@@ -143,9 +143,9 @@
 
 ## 21 Février
 
-* Finition du diaporama pour l'audit de mi-parcours
-* Finition de la la remise en forme de la docummentation de Prefect
-* Finition de la liste des fonctionnalités en précisant l'importance et la difficulté
+* Finalisation du diaporama pour l'audit de mi-parcours
+* Finalisation de la remise en forme de la docummentation de Prefect
+* Finalisation de la liste des fonctionnalités en précisant l'importance et la difficulté
 * Mise à jour du diagramme de Gantt
 * Poursuite de l'implémentation des méthodes pour les routes de l'api OAR3
 
@@ -177,4 +177,49 @@
 * Ajout de tests sur les méthodes de queries
 * Amélioration de la configuration de la BDD
 
+## 5 Mars
+
+* Début des commandes grids avec du mocking
+* Mise en place des pre commits
+* Mise à jour le github action pour les tests de requêtes
+* Implémentation des tests pour les requêtes
+* Amélioration de la confiiguration de la BDD (contraire d'unicité et autres)
+* Initialisation d'un scheduler de base avec tests
+* Initialisation d'une base pour l'API de CiGri
+* Ajout d'un "ApiClientStub handle multiple mocked value" avec tests
+
+## 6 Mars
+
+* Ajout d'un assert pour les exceptions dans le TestManager
+* Finalisation de l'API de CiGri
+* Implémentation dde la commande gridcluster
+* Commencement de l'implémentation de griddel
+* Implémentation des tests pour JDLParser
+* Amélioration des requêtes + tests
+
+## 7 Mars
+
+* Poursuite du code de griddel
+* Réorganisation de branches locales
+* Organisation pour implémentation des routes API CiGri v4
+
+## 8 Mars
+
+* Ajout de la BDD et du jdl parser sur la branche main
+* Début d'ajout d'une route dans le backend
+* Mise en pause de la fonction griddel (par manque de possibilités de test)
+* Commencement de la fonction gridsub (en test)
+* Préparation de queries pour les fonctionnalités de priorité 2
+
+## 11 Mars
+
+* Création de requêtes de récupérations de multiples campagnes et évènements, tests associés
+* Finalisation de l'implémentation de gridcluster
+* Poursuite de la réalisation de gridstat
+* Création de l'Initiator
+
+## 12 Mars
+
+* Rédaction du Rapport
+* Création du Flyer
 

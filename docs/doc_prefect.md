@@ -49,7 +49,7 @@ Possibilité d'utiliser des services cloud comme AWS, Azure et même Prefect Clo
 
 Possibilité de mettre des workflow dans des conteneurs Docker pour les déployer facilement sur les plateforme prenant en charge Docker.
 
-### Blocks
+### Blocks
 
 Ce sont des éléments qui stockent une configuration pour utiliser un service exterieur comme des éléments d'AWS, d'AZURE, des JSON, des Emails, et autres. 
 
@@ -146,4 +146,15 @@ Après beaucoup de discussions, nous sommes arrivé au point suivant: les seuls 
 Donc, nous avons choisi d'utiliser les work-pools comme campagne, les flows comme job et utiliser les déploiements représentant les états du job sur OAR.
 
 Pour les notifications, nous avons deux possibilités: soit nous utilisons un compte Prefect pour tout CiGri pour avoir un historique centralisé mais nous avons un problème pour l'envoie de mail individuel, soit chaque utilisateur a un compte Prefect, mais l'historique ne sera pas centralisé. 
+
+## Conclusion
+
+Nous avons donc envisagé d’utiliser partiellement Prefect dans CiGri en l’utilisant comme une surcouche de CiGri. Dit autrement en conservant le comportement de CiGri v3 que l’on adapte en Python en rajoutant un front end avec Prefect. Cependant, cette version rajouterait beaucoup de complexité et de contrainte pour des résultats peu probants.
+En effet, cela soulève la question de comment doit être réalisé l’accès à Prefect pour l’utilisateur. Il faudrait un compte par utilisateur, le problème étant que chaque compte a le droit à seulement un workspace Prefect. Il existe une contrainte de performance, car l’implémentation imposerait de mettre à jour l’ensemble des workspaces en parallèle, sachant qu’il y en aurait autant qu’il y a d’utilisateurs. Tout cela résulterait en des performances médiocres ainsi qu’une empreinte carbone élevée.
+
+Dans le cas où l’on choisit d’avoir un seul compte pour tout le monde, on ajouterai une très grande faille de sécurité que l’on ne peut se permettre. De plus, Prefect permet de renseigner seulement un mail par utilisateur pour les notifications, ce qui entraîne l’impossibilité d’implémenter le système de notification par mail avec Prefect.
+
+Pour terminer, Prefect semble être mis en place pour des systèmes l’utilisant de A à Z pour en optimiser ses fonctionnalités et dans notre cas nous ne pouvons nous permettre de réimplémenter OAR. L’idée de l’utiliser partiellement semble donc peu envisageable.
+
+Il est toutefois important de noter que des fonctionnalités premiums sont disponibles sur prefect et que nous ne nous sommes pas attardés dessus, car nous ne disposons pas de budget pour le projet. Pour ces raisons nous avons donc décidé de nous porter vers une migration plus classique du logiciel CiGri vers du Python avec l’architecture décrite dans la partie ci-dessous.
 
