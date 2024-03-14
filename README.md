@@ -63,6 +63,6 @@ Une fois qu'un membre de l'équipe a achevé une tâche, il soumet une **pull re
 
 * [Flyer](./Soutenance/Projet%20S10%20-%20Flyer.pdf)
 
-* Présentation finale
+* [Présentation finale](./Soutenance/Présentation%20Finale.pdf)
 
 * [Rapport final](./Soutenance/Rapport_Final_Groupe_10-2024.md)
