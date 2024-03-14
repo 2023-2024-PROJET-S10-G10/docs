@@ -9,7 +9,7 @@ Diego CORREIA DE OLIVEIRA
 ## Rappel du sujet/besoin et cahier des charges
 
 Gricad propose des services pour la recherche grenobloise, notamment des supercalculateurs. Les scientifiques utilisent ces capacités de calcul pour effectuer des simulations, entraîner des modèles d'IA ou analyser des batchs de données.
-Afin de pouvoir interagir avec les centres de calcul de la manière la plus efficace possible, le logiciel Cigri a été développé par Bruno Bzeznik depuis 2007. CiGri permet, à l'aide de quelques commandes seulement, de soumettre des centaines et même milliers de programmes, avec une notion de priorité pour utiliser les ressources en permanence.
+Afin de pouvoir interagir avec les centres de calcul de la manière la plus efficace possible, le logiciel Cigri a été développé par Bruno Bzeznik depuis 2000. CiGri permet, à l'aide de quelques commandes seulement, de soumettre des centaines et même milliers de programmes, avec une notion de priorité pour utiliser les ressources en permanence.
 
 Le cahier des charges contient toutes les fonctionnalités de la version actuelle, il n'est pas permis de créer un programme ayant des régressions. De plus, le logiciel doit être capable de communiquer avec les nouvelles versions des composants de l'architecture, comme OAR² en version 3. Le support d'OAR3 implique la gestion des jetons d'authentification JWT³ par CiGri.
 
