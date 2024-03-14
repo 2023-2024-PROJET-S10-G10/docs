@@ -223,3 +223,12 @@
 * Rédaction du Rapport
 * Création du Flyer
 
+## 13 Mars
+
+* Finalisation du Rapport
+* Finalisation du diaporama de présentation
+
+## 14 Mars
+
+* Finir les tâches en cours
+

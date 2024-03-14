@@ -416,3 +416,24 @@
 
 * Réaliser les livrables (Rapport, Flyer, ...)
 
+
+# 13 Mars
+
+## Ce que nous avons fait
+
+* Réalisation des livrables (Rapport, Flyer, ...)
+
+## Ce que nous allons faire
+
+* Finalisation des livrables (Rapport, Flyer, ...)
+
+
+# 14 Mars
+
+## Ce que nous avons fait
+
+* Finir les livrables
+
+## Ce que nous allons faire
+
+* Finir les tâches en cours
